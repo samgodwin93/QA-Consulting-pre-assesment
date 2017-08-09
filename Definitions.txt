@@ -1,0 +1,13 @@
+Definitions of 4 Object oriented programming terms.
+
+Inheritance
+Inheritance is where a class can derive both methods and properties from another class, for example in the programming that will be required in part 2 of this task I will use inheritance to allow the class where the ticket prices are calculated to derive the ticket properties from 4 separate classes. One for each different ticket type. 
+
+
+Polymorphism
+Polymorphism in java is a concept by which we can perform a single action by different ways by using different reference variables in the same method to return different outputs even though the processes are the same. In Java all objects are polymorphic and must be referred to using unique reference variable. This concept will likely be used extensively in the second part of this task as it is the whole basis behind Object oriented programming.
+
+Encapsulation
+Encapsulation is the process of effectively hiding the methods and variables of a class in such a way that they can only be accessed through the method of that class. This is done by declaring the variable of a class as private and then creating public “getx()” or “setx” methods where x is the variable to be returned to another class. 
+Abstraction
+An abstract class is created by using the abstract keyword in the class declaration. The abstraction is effectively a formula in the sense that it provides all the methods required to complete the task however none of the variables. This allows it to inherit those variables from a child class and plug those variables into formula and then gives an output. For example say you wanted to rotate 4 different shapes you could put the instructions on how to rotate a shape in the abstract but the shapes themselves would be defined in a separate class. This would allow the abstract to inherit the values for each of the shapes and apply the same method to each. This is especially important and is OO programming’s biggest strength as it allows you to easily add cod later on without altering code that you know to be working.
